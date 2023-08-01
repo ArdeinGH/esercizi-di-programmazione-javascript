@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var annocorrente = 2023
+var annodinascita = 2005
+var eta = annocorrente - annodinascita
+var annimancanti = 100 - eta
+console.log('eta: ' + eta)
+console.log('anni mancanti: ' + annimancanti)
